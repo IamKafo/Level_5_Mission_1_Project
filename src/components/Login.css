@@ -1,0 +1,66 @@
+
+.loginBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid;
+    padding: 60px;
+    height: 624px;
+    background-color: #3c3c3c;
+}
+
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    background-image: url(../Assets/black-wallpaper.jpg);
+    background-size: 600px;
+    background-position: center;
+}
+
+.loginCard{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    /* border: 2px solid; */
+}
+
+.loginform input{
+    margin: 10px;
+}
+
+.loginButton{
+    text-align: center;
+    border: 2px solid black;
+    width: 250px;
+    margin-left: 0px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 4px;
+    color: #ffff;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+    background-color: #3c3c3c;
+}
+
+.wrapper{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 40px;
+    box-shadow: 0px 4px 5px #00000029;
+}
